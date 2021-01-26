@@ -111,7 +111,7 @@ class Customer(models.Model):
 #         return 'Характерики для товара: {}'.format(self.name)
 
 # Модель для теста работы с изображениями
-class SomeModel(models.Model):
-    image = models.ImageField()
-    def __str__(self):
-        return str(self.id)
+# class SomeModel(models.Model):
+#     image = models.ImageField()
+#     def __str__(self):
+#         return str(self.id)

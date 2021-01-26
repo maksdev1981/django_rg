@@ -134,10 +134,11 @@ USE_TZ = True
 
 # Добавляем место хранения статических файлов
 STATIC_URL = '/static/'
-#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-#MEDIA_URL = '/media/'
-#MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 # Директории где django будет искать статические файлы для перемещения в static
-#STATICFILES_DIRS = (
-#    os.path.join(BASE_DIR, 'static_dev'),
-#)
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static_dev'),
+)
