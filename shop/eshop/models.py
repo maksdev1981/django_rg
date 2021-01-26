@@ -35,7 +35,7 @@ class LatestProductsManager:
         return products
 
 class LatestProducts:
-    objects = None
+    objects = LatestProductsManager()
 
 
 

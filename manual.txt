@@ -6,6 +6,7 @@ pip install django
 pip install pandas
 pip install mysqlclient
 pip install pillow
+pip install reportlab
 2. Стартуем новый проект
 django-admin startproject shop
 3. Стартуем новое приложение (компонент)
